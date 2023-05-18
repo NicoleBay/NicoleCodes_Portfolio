@@ -1,0 +1,19 @@
+:root {
+  --title-font: "Cinzel", serif;
+  --body-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 80px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1;
+}
