@@ -90,6 +90,33 @@ h4 {
   margin: 100px 0 0;
 }
 
+.icons {
+  margin-top: 10px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.card-box {
+  margin: 30px auto;
+  border: 1px solid;
+  border-radius: 45px;
+  border-color: transparent;
+  padding: 5x;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.skills {
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.8;
+}
+.cat {
+  max-width: 50%;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -108,5 +135,11 @@ h4 {
 
   .visit-page-box a:hover {
     font-size: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cat {
+    max-width: 100%;
   }
 }
