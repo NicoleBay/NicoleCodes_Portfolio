@@ -28,12 +28,11 @@ h2 {
   letter-spacing: 1px;
 }
 
-p {
+h4 {
   text-align: left;
-  font-size: 16px;
 }
 
-h4 {
+p {
   text-align: left;
 }
 
@@ -55,9 +54,11 @@ footer .social-icons:hover {
   color: #ffffff;
 }
 
-.open-sourced {
-  display: inline-block;
+img .custom-bg {
+  background-color: var(--bg-color);
+  padding: 10px;
 }
+
 .navbar-brand {
   font-family: var(--title-font);
 }
@@ -76,15 +77,12 @@ footer .social-icons:hover {
   text-transform: uppercase;
 }
 
-.custom-bg {
-  background-color: var(--bg-color);
-  padding: 10px;
-}
-
 .custom-slide-bg {
   background-color: var(--bg-color);
   padding: 40px;
 }
+
+/*homepage eye icon and github icon start*/
 
 .visit-page-box {
   text-align: left;
@@ -103,6 +101,9 @@ footer .social-icons:hover {
   font-size: 50px;
 }
 
+/*homepage eye icon and github icon end*/
+
+/*projects page eye icon and github icon start*/
 .project-icons a {
   font-size: 30px;
   color: var(--primary-color);
@@ -115,10 +116,13 @@ footer .social-icons:hover {
   color: var(--secondary-color);
   font-size: 45px;
 }
+/*project page eye icon and github icon end*/
 
 .page-break {
   margin: 100px 0 0;
 }
+
+/*about me box start*/
 
 .icons {
   width: 40px;
@@ -150,7 +154,14 @@ footer .social-icons:hover {
 }
 
 .hint-cat {
+  color: var(--secondary-color);
   font-size: 18px;
+}
+
+/*about me box end*/
+
+.portfolio-project-text {
+  line-height: 1.5;
 }
 
 .contact-icons {

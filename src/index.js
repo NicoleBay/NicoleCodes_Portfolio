@@ -5,9 +5,5 @@ function play() {
   audio.play();
 }
 
-function stop() {
-  audio.pause();
-}
-
 img.addEventListener("click", play);
 img.addEventListener("mouseover", play);
