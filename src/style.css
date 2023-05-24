@@ -139,14 +139,18 @@ footer .social-icons:hover {
   background-color: #e9e8e8;
 }
 
-.fa-cat {
+.icon-cat {
   color: var(--secondary-color);
   font-size: 24px;
   transition: all 300ms ease-in-out;
 }
 
-.fa-cat:hover {
+.icon-cat:hover {
   font-size: 35px;
+}
+
+.hint-cat {
+  font-size: 18px;
 }
 
 .contact-icons {
