@@ -28,12 +28,17 @@ h2 {
   letter-spacing: 1px;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 h4 {
   text-align: left;
 }
 
 p {
   text-align: left;
+  font-weight: 300;
 }
 
 hr {
@@ -43,15 +48,18 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-footer .social-icons {
-  font-size: 30px;
+footer .footer-text {
   margin: 15px 30px;
-  color: var(--primary-color);
-  transition: all 300ms ease-in-out;
+  color: #ffffff;
 }
 
-footer .social-icons:hover {
+footer .git-link {
   color: #ffffff;
+  text-decoration: none;
+}
+
+footer .git-link:hover {
+  text-decoration: underline;
 }
 
 img .custom-bg {
@@ -135,8 +143,25 @@ img .custom-bg {
   border-radius: 10px;
   border-color: transparent;
   padding: 5px;
-  max-width: 800px;
+  max-width: 1200px;
   line-height: 1.5;
+}
+
+.certificate-headings {
+  font-size: 20px;
+}
+
+.certificate-links {
+  color: var(--primary-color);
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.certificate-links:hover {
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .text-body {
