@@ -138,9 +138,9 @@ img .custom-bg {
 }
 
 .volume-icon {
-  margin-right: 10px;
-  margin-left: 10px;
   font-size: 20px;
+  color: #ffffff;
+  margin: 16px 10px;
 }
 
 .card-box {
@@ -227,5 +227,9 @@ img .custom-bg {
 
   .contact-icons {
     font-size: 35px;
+  }
+
+  .volume-icon {
+    font-size: 16px;
   }
 }
