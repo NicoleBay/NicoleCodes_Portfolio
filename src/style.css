@@ -137,8 +137,13 @@ img .custom-bg {
   height: 40px;
 }
 
+.volume-icon {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
 .card-box {
-  margin: 30px auto;
   border: 1px solid;
   border-radius: 10px;
   border-color: transparent;
