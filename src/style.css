@@ -188,6 +188,14 @@ img .custom-bg {
   font-size: 20px;
 }
 
+.git-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.git-link:hover {
+  text-decoration: underline;
+}
 /*about me box end*/
 
 .portfolio-project-text {
@@ -205,16 +213,23 @@ img .custom-bg {
   font-size: 70px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 35px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
+  h3 {
+    font-size: 22px;
+  }
   p {
     font-size: 12px;
+  }
+
+  .certificate-headings {
+    font-size: 16px;
   }
 
   .visit-page-box a {
