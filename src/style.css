@@ -133,8 +133,8 @@ img .custom-bg {
 /*about me box start*/
 
 .icons {
-  width: 55px;
-  height: 55px;
+  width: 100%;
+  height: auto;
 }
 
 .volume-icon {
