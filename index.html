@@ -113,20 +113,27 @@
           >
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/117/original/weather-app-light.jpg?1685699478"
-                  class="d-none d-sm-block w-100"
-                  alt="Weather App Light"
-                />
+                <picture>
+                  <source srcset="/path/to/image.webp" type="webp" />
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/117/original/weather-app-light.jpg?1685699478"
+                    alt="Weather App Light"
+                    class="d-none d-sm-block w-100"
+                  />
+                </picture>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/116/original/weather-app-dark.jpg?1685699474"
-                  class="d-none d-sm-block w-100"
-                  alt="Weather App Dark"
-                />
+                <picture>
+                  <source srcset="/path/to/image.webp" type="webp" />
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/116/original/weather-app-dark.jpg?1685699474"
+                    alt="Weather App Dark"
+                    class="d-none d-sm-block w-100"
+                  />
+                </picture>
               </div>
             </div>
+
             <button
               class="carousel-control-prev"
               type="button"
@@ -189,11 +196,14 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-lg-6 mt-3">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/114/original/MH-preview.png?1685699465"
-            alt="Mental Health Project"
-            class="img-fluid custom-bg rounded d-none d-sm-block d-flex justify-content-center mb-5"
-          />
+          <picture>
+            <source srcset="/path/to/image.webp" type="webp" />
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/114/original/MH-preview.png?1685699465"
+              alt="Mental Health Project"
+              class="img-fluid custom-bg rounded d-none d-sm-block mb-5"
+            />
+          </picture>
         </div>
         <div class="col-lg-6">
           <h4 class="mt-5">Mental Health Landing Page</h4>
