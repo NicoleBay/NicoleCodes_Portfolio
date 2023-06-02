@@ -48,6 +48,11 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 footer .footer-text {
   margin: 15px 30px;
   color: #ffffff;
@@ -65,8 +70,6 @@ footer .git-link:hover {
 img .custom-bg {
   background-color: var(--bg-color);
   padding: 10px;
-  width: 100%;
-  height: auto;
 }
 
 .navbar-brand {
